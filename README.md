@@ -19,3 +19,14 @@ Please run:
 python test_recipe.py -en 'recipe' -mn 'gpt2-xl' -et 'sequential' -dvc 'cuda:0' -ckpt 'train_records/recipe/gpt2-xl/train_name/checkpoints/a_checkpoint' -dn 'zsre' -edn 1000 
 ```
 You can check results in `eval_results/recipe`.
+
+## Citation
+Please cite our paper if you use RECIPE in your work.
+
+@inproceedings{chen2024recipe,
+    title = {Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning},
+    author={Chen, Qizhou and Zhang, Taolin and Li, Dongyang and Huang, Longtao and Xue, Hui and Wang, Chengyu and He, Xiaofeng},
+    year = 2024,
+    booktitle = {EMNLP},
+    url = {https://2024.emnlp.org/program/accepted_main_conference/}
+}
