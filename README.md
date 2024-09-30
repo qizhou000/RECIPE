@@ -1,5 +1,5 @@
 # RECIPE
-Source code for EMNLP 2024 (main) paper *Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*
+Source code for EMNLP 2024 (main) paper *Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*.
 
 ## Before training or testing RECIPE
 First, please set the root directory path and model directory path in `utils/global_attrs.py`.
