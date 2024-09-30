@@ -22,7 +22,7 @@ You can check results in `eval_results/recipe`.
 
 ## Citation
 Please cite our paper if you use RECIPE in your work.
-```
+```bibtex
 @inproceedings{chen2024recipe,
     title = {Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning},
     author={Qizhou Chen and Taolin Zhang and Xiaofeng He and Dongyang Li and Chengyu Wang and Longtao Huang and Hui Xue},
