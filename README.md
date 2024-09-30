@@ -1,6 +1,7 @@
 # RECIPE
 Source code for EMNLP 2024 (main) paper *Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*.
 
+# DEMO
 ## Before training or testing RECIPE
 Please set the root directory path and model directory path in `utils/global_attrs.py`.
 Then, please place the Huggingface weight file of the language model to be edited into `models/` directory.
