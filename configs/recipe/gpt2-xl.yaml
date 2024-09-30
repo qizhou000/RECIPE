@@ -1,0 +1,20 @@
+edit_model_name: "gpt2-xl"
+begin_layer_path: "transformer.h.0"
+lm_head_path: "lm_head"
+model_hidden_size: 1600
+knowledge_rep_dim: 4096
+knowl_rep_prot_token_n: 10
+prompt_token_n: 3
+training:
+  krm_lr: 1.e-5
+  pt_lr: 1.e-5
+  relia_lambda: 1
+  gen_lambda: 1
+  loc_lambda: 1
+  contra_lambda: 1
+  query_knowledge_t: 1
+  query_prototype_t: 1
+  constra_hinge_scale: 1.2 # >= 1
+  edit_hinge_scale: 1.2 # >= 1
+
+

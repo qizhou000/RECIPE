@@ -1,0 +1,10 @@
+torch                         2.0.1+cu118
+transformers                  4.31.0
+accelerate                    0.21.0
+transformers                  4.31.0
+tqdm                          4.65.0
+tensorboard                   2.14.0
+dataclasses-json              0.6.2
+PyYAML                        6.0
+datasets                      2.18.0
+sentence-transformers         2.2.2
