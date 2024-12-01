@@ -1,5 +1,5 @@
 # RECIPE
-![RECIPE](figures\output.svg)
+![RECIPE](figures/recipe.svg)
 Source code for EMNLP 2024 (main) paper *Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*.
 
 
