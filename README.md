@@ -11,15 +11,15 @@ Then, please place the Huggingface weight file of the language model to be edite
 ## Train RECIPE
 Please run:
 ```
-python train_recipe.py -mn 'gpt2-xl' -dn 'zsre'  
+python train_recipe.py -mn 'llama-7b' -dn 'zsre'  
 ```
-Checkpoints will be saved in `train_records/recipe/gpt2-xl/train_name/checkpoints/`.
-You can view training information in `train_records/recipe/gpt2-xl/train_name/logs/` through Tensorboard.
+Checkpoints will be saved in `train_records/recipe/llama-7b/train_name/checkpoints/`.
+You can view training information in `train_records/recipe/llama-7b/train_name/logs/` through Tensorboard.
 
 ## Evaluate RECIPE
 Please run:
 ```
-python test_recipe.py -en 'recipe' -mn 'gpt2-xl' -et 'sequential' -dvc 'cuda:0' -ckpt 'train_records/recipe/gpt2-xl/train_name/checkpoints/a_checkpoint' -dn 'zsre' -edn 1000 
+python test_recipe.py -en 'recipe' -mn 'llama-7b' -et 'sequential' -dvc 'cuda:0' -ckpt 'train_records/recipe/llama-7b/train_name/checkpoints/a_checkpoint' -dn 'zsre' -edn 1000 
 ```
 You can check results in `eval_results/recipe`.
 
