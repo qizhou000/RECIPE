@@ -1,6 +1,6 @@
 # RECIPE
 ![RECIPE](figures/recipe.svg)
-Source code for EMNLP 2024 (main) paper *Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*.
+Source code for EMNLP 2024 (main) paper [*Lifelong Knowledge Editing for LLMs with Retrieval-Augmented Continuous Prompt Learning*.](https://aclanthology.org/2024.emnlp-main.751/)
 
 
 # DEMO
